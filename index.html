@@ -1,0 +1,58 @@
+<!doctype html><html lang="he" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ניתוח טכני – מניות</title><style>*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Rubik,Arial,sans-serif;background:#f4f6fb;color:#1f2937;direction:rtl}
+a{color:#2563eb;text-decoration:none}.wrap{max-width:1200px;margin:0 auto;padding:16px}
+header.top{background:linear-gradient(135deg,#1e3a8a,#2563eb);color:#fff;padding:18px 16px}header.top h1{margin:0;font-size:1.5rem}header.top a{color:#dbeafe}
+.box{background:#fff;border-radius:16px;padding:16px;box-shadow:0 1px 3px rgba(0,0,0,.08);margin-bottom:16px}
+h2{margin:0 0 10px;font-size:1.2rem}.ltr{direction:ltr;unicode-bidi:isolate;display:inline-block}
+.badge{display:inline-block;padding:5px 16px;border-radius:999px;color:#fff;font-weight:700}
+.price{font-size:2.2rem;font-weight:800}.muted{color:#6b7280;font-size:.85rem}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-bottom:16px}
+.card{border-radius:14px;padding:14px;color:#fff}.card h4{margin:0;font-size:.95rem;opacity:.9}.card .v{font-size:1.4rem;font-weight:800;margin:6px 0}.card .d{font-size:.85rem}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:16px}@media(max-width:860px){.two{grid-template-columns:1fr}}
+.lad{display:flex;align-items:center;gap:8px;padding:6px 4px;border-bottom:1px solid #eef0f4;font-size:.9rem}
+.lad .p{width:72px;font-weight:700;direction:ltr;text-align:left}.lad .dist{width:58px;direction:ltr;color:#6b7280;text-align:left}
+.lad .bar{height:12px;border-radius:6px;flex:none}.lad .src{flex:1;color:#4b5563;font-size:.78rem}
+.now{background:#1e3a8a;color:#fff;font-weight:800;padding:8px;border-radius:8px;text-align:center;margin:6px 0}
+table{width:100%;border-collapse:collapse;font-size:.88rem}td,th{padding:7px 6px;border-bottom:1px solid #eef0f4;text-align:right;vertical-align:top}
+tr.pos td:first-child{border-right:4px solid #16a34a}tr.neg td:first-child{border-right:4px solid #dc2626}tr.neu td:first-child{border-right:4px solid #9ca3af}
+.dot{display:inline-block;width:11px;height:11px;border-radius:50%}
+.scs{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
+.sc{border:2px solid #ddd;border-radius:14px;padding:14px;background:#fff}.sc .row{display:flex;justify-content:space-between;padding:4px 0;border-bottom:1px dashed #e5e7eb}
+#chart{width:100%;height:560px}@media(max-width:600px){#chart{height:420px}.price{font-size:1.7rem}}
+.search{display:flex;gap:8px}.search input{flex:1;font-size:1.1rem;padding:10px 14px;border-radius:12px;border:1px solid #cbd5e1;direction:ltr;text-align:left;text-transform:uppercase}
+.search button{padding:10px 18px;border:0;border-radius:12px;background:#2563eb;color:#fff;font-size:1rem;cursor:pointer}
+#msg{margin-top:8px;color:#dc2626;min-height:1.2em}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px}
+.tk{display:block;background:#fff;border-radius:14px;padding:14px;box-shadow:0 1px 3px rgba(0,0,0,.08);color:inherit;border-top:5px solid #999;transition:transform .1s}.tk:hover{transform:translateY(-2px)}
+.tk .s{font-size:1.3rem;font-weight:800}.tk .pr{font-size:1.2rem;font-weight:700}</style></head><body><header class="top"><div class="wrap" style="padding:0"><h1>📈 ניתוח טכני פשוט למניות</h1><div style="opacity:.85">עודכן: <span class="ltr">11/10/2026 13:26</span> (שעון ישראל) · נתונים בעיכוב של כ-15 דקות</div></div></header>
+<div class="wrap"><div class="box"><form class="search" id="f"><input id="q" placeholder="INTC" autocomplete="off" autofocus><button>חפש</button></form><div id="msg"></div></div>
+<div class="grid"><a class="tk" href="INTC.html" style="border-top-color:#d97706"><div class="s">INTC</div><div class="muted">Intel Corporation</div>
+<div class="pr"><span class="ltr">104.70$</span> <span class="ltr" style="color:#dc2626;font-size:.95rem">-2.22%</span></div>
+<span class="badge" style="background:#d97706;font-size:.8rem;margin-top:6px">תיקון בתוך מגמה עולה · מכירת יתר</span><div class="muted" style="margin-top:6px">עודכן <span class="ltr">11/10/2026 13:26</span></div></a><a class="tk" href="NVDA.html" style="border-top-color:#16a34a"><div class="s">NVDA</div><div class="muted">NVIDIA Corporation</div>
+<div class="pr"><span class="ltr">229.28$</span> <span class="ltr" style="color:#dc2626;font-size:.95rem">-0.52%</span></div>
+<span class="badge" style="background:#16a34a;font-size:.8rem;margin-top:6px">מגמה עולה</span><div class="muted" style="margin-top:6px">עודכן <span class="ltr">11/10/2026 13:26</span></div></a><a class="tk" href="AMD.html" style="border-top-color:#16a34a"><div class="s">AMD</div><div class="muted">Advanced Micro Devices, Inc.</div>
+<div class="pr"><span class="ltr">608.10$</span> <span class="ltr" style="color:#dc2626;font-size:.95rem">-2.03%</span></div>
+<span class="badge" style="background:#16a34a;font-size:.8rem;margin-top:6px">מגמה עולה</span><div class="muted" style="margin-top:6px">עודכן <span class="ltr">11/10/2026 13:26</span></div></a><a class="tk" href="TSM.html" style="border-top-color:#d97706"><div class="s">TSM</div><div class="muted">Taiwan Semiconductor Manufacturing Company Ltd.</div>
+<div class="pr"><span class="ltr">453.31$</span> <span class="ltr" style="color:#dc2626;font-size:.95rem">-1.02%</span></div>
+<span class="badge" style="background:#d97706;font-size:.8rem;margin-top:6px">תיקון בתוך מגמה עולה</span><div class="muted" style="margin-top:6px">עודכן <span class="ltr">11/10/2026 13:26</span></div></a><a class="tk" href="AVGO.html" style="border-top-color:#d97706"><div class="s">AVGO</div><div class="muted">Broadcom Inc.</div>
+<div class="pr"><span class="ltr">361.54$</span> <span class="ltr" style="color:#16a34a;font-size:.95rem">+0.39%</span></div>
+<span class="badge" style="background:#d97706;font-size:.8rem;margin-top:6px">ריבאונד בתוך מגמה יורדת</span><div class="muted" style="margin-top:6px">עודכן <span class="ltr">11/10/2026 13:26</span></div></a><a class="tk" href="MU.html" style="border-top-color:#d97706"><div class="s">MU</div><div class="muted">Micron Technology, Inc.</div>
+<div class="pr"><span class="ltr">1029.00$</span> <span class="ltr" style="color:#dc2626;font-size:.95rem">-0.66%</span></div>
+<span class="badge" style="background:#d97706;font-size:.8rem;margin-top:6px">תיקון בתוך מגמה עולה</span><div class="muted" style="margin-top:6px">עודכן <span class="ltr">11/10/2026 13:26</span></div></a><a class="tk" href="ASML.html" style="border-top-color:#16a34a"><div class="s">ASML</div><div class="muted">ASML Holding N.V. - New York Registry Shares</div>
+<div class="pr"><span class="ltr">1780.34$</span> <span class="ltr" style="color:#16a34a;font-size:.95rem">+0.60%</span></div>
+<span class="badge" style="background:#16a34a;font-size:.8rem;margin-top:6px">מגמה עולה</span><div class="muted" style="margin-top:6px">עודכן <span class="ltr">11/10/2026 13:26</span></div></a><a class="tk" href="AMAT.html" style="border-top-color:#16a34a"><div class="s">AMAT</div><div class="muted">Applied Materials, Inc.</div>
+<div class="pr"><span class="ltr">507.03$</span> <span class="ltr" style="color:#dc2626;font-size:.95rem">-0.50%</span></div>
+<span class="badge" style="background:#16a34a;font-size:.8rem;margin-top:6px">מגמה עולה</span><div class="muted" style="margin-top:6px">עודכן <span class="ltr">11/10/2026 13:26</span></div></a><a class="tk" href="LRCX.html" style="border-top-color:#16a34a"><div class="s">LRCX</div><div class="muted">Lam Research Corporation</div>
+<div class="pr"><span class="ltr">318.84$</span> <span class="ltr" style="color:#dc2626;font-size:.95rem">-0.55%</span></div>
+<span class="badge" style="background:#16a34a;font-size:.8rem;margin-top:6px">מגמה עולה</span><div class="muted" style="margin-top:6px">עודכן <span class="ltr">11/10/2026 13:26</span></div></a><a class="tk" href="QCOM.html" style="border-top-color:#d97706"><div class="s">QCOM</div><div class="muted">QUALCOMM Incorporated</div>
+<div class="pr"><span class="ltr">175.50$</span> <span class="ltr" style="color:#dc2626;font-size:.95rem">-0.29%</span></div>
+<span class="badge" style="background:#d97706;font-size:.8rem;margin-top:6px">תיקון בתוך מגמה עולה · מכירת יתר</span><div class="muted" style="margin-top:6px">עודכן <span class="ltr">11/10/2026 13:26</span></div></a><a class="tk" href="AAPL.html" style="border-top-color:#16a34a"><div class="s">AAPL</div><div class="muted">Apple Inc.</div>
+<div class="pr"><span class="ltr">336.64$</span> <span class="ltr" style="color:#dc2626;font-size:.95rem">-1.11%</span></div>
+<span class="badge" style="background:#16a34a;font-size:.8rem;margin-top:6px">מגמה עולה</span><div class="muted" style="margin-top:6px">עודכן <span class="ltr">11/10/2026 13:26</span></div></a><a class="tk" href="MSFT.html" style="border-top-color:#16a34a"><div class="s">MSFT</div><div class="muted">Microsoft Corporation</div>
+<div class="pr"><span class="ltr">535.07$</span> <span class="ltr" style="color:#16a34a;font-size:.95rem">+2.38%</span></div>
+<span class="badge" style="background:#16a34a;font-size:.8rem;margin-top:6px">מגמה עולה · קניית יתר</span><div class="muted" style="margin-top:6px">עודכן <span class="ltr">11/10/2026 13:26</span></div></a><a class="tk" href="TSLA.html" style="border-top-color:#d97706"><div class="s">TSLA</div><div class="muted">Tesla, Inc.</div>
+<div class="pr"><span class="ltr">382.70$</span> <span class="ltr" style="color:#16a34a;font-size:.95rem">+2.05%</span></div>
+<span class="badge" style="background:#d97706;font-size:.8rem;margin-top:6px">ריבאונד בתוך מגמה יורדת</span><div class="muted" style="margin-top:6px">עודכן <span class="ltr">11/10/2026 13:26</span></div></a></div></div>
+<script>const T=["INTC", "NVDA", "AMD", "TSM", "AVGO", "MU", "ASML", "AMAT", "LRCX", "QCOM", "AAPL", "MSFT", "TSLA"];const f=document.getElementById('f'),q=document.getElementById('q'),m=document.getElementById('msg');
+f.addEventListener('submit',e=>{e.preventDefault();const t=q.value.trim().toUpperCase();if(!t)return;if(T.includes(t))location.href=t+'.html';else m.textContent='הסימול '+t+' עדיין לא נוצר';});
+q.addEventListener('input',()=>{m.textContent='';});</script></body></html>
